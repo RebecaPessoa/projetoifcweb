@@ -1,0 +1,162 @@
+/*
+canvas full screen:
+*/
+
+  #three-canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+  }
+
+  #file-input{
+    margin: 20px;
+    z-index: 1;
+    position: absolute;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    min-height: 1000px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h5,
+h6 {
+    font-family: roboto;
+}
+
+.wrap {
+    background: rgba(0, 0, 0, 0.5) url(../assets/bim.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    color: #fff;
+    opacity: 1;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6));
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    float: left;
+}
+
+header .menu {
+    float: right;
+    margin-top: 5px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.content {
+    max-width: 40%;
+    padding: 255px 80px 0;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content p {
+    font-size: 18px;
+    padding: 25px 0;
+    font-weight: 300;
+
+}
+
+.content .btn-group {
+    margin-top: 45px;
+
+}
+
+.content a {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.content a.color1 {
+    background-color: #004AAC;
+}
+
+.libraries {
+    margin-top: -13%;
+    padding: 0 80px;
+    position: relative;
+}
+
+.libraries h3 {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.libraries hr {
+    border: none;
+    height: 4px;
+    width: 200px;
+    background-color: #004AAC;
+}
+
+.libraries-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.libraries-inner a {
+    display: inline-block;
+    width: 14%;
+    padding: 15px;
+    margin-right: 25px;
+    border: 1px solid #cacaca;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 #cacaca;
+}
+
+.libraries img {
+    width: 100%;
+
+}
+
+  
+  
