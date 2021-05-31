@@ -3,18 +3,18 @@ Projeto webapp open BIM para carregar e visualizar arquivos [ifc](https://en.wik
 
 ### Deploy no github pages: [Visitar o site](https://rebecapessoa.github.io/projetoifcweb/)
 
-#### Preview:
+#### Landing page:
 ![landingpage](https://user-images.githubusercontent.com/4651221/120132669-28014780-c1a1-11eb-852f-61b6e2768509.gif)
 
 
 ## O que é IFCjs:
 
-O [IFCjs](https://github.com/agviegas/web-ifc-viewer) é uma biblioteca Javascript open source que facilita a leitura e edição de arquivos ifc, permitindo desenvolvedores de aplicações de arquitetura e engenharia atrabalhar com estes arquivos com foco em diversas funcionalidades.
+O [IFCjs](https://github.com/agviegas/web-ifc-viewer) é uma biblioteca Javascript open source que facilita a leitura e edição de arquivos ifc, permitindo desenvolvedores de aplicações de arquitetura e engenharia a trabalhar com estes arquivos com foco em diversas funcionalidades.
 IFCjs pode gerar:
 
 * Geometria: gera cenas 3D pois é  compatível com bibliotecas como Three.js ou Babylon.js. Assim pode-se criar ferramentas que iteragem com os modelos 3d utilizando a API "high-level" dessas bibliotecas.
 
-* Data: acesso "high-level" a todas as propriedades associadas às geometrias. Isto significa fácil acesso à informações dos componentes da edificação, seus materiais, características (estruturais, térmicas...), etc.
+* Dados: acesso "high-level" a todas as propriedades associadas às geometrias. Isto significa fácil acesso à informações dos componentes da edificação, seus materiais, características (estruturais, térmicas...), etc.
 
 
  ***Tecnologias Utilizadas***
