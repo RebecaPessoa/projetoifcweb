@@ -1,7 +1,6 @@
 /*
 canvas full screen:
 */
-
   #three-canvas{
     position: fixed;
     top: 0;
@@ -15,12 +14,243 @@ canvas full screen:
     position: absolute;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
+/*fim canvas*/
+
+/*Sessão nova*/
+*{
     box-sizing: border-box;
+    padding:0;
+    margin:0;
 }
 
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+
+    color:#212121;
+    overflow-x: hidden;
+}
+
+h1,h2{
+    line-height: 1.2;
+}
+
+a{
+    display:inline-block;
+    text-decoration:none;
+    color:#efefef;
+    /*LEMBRAR - alterei aqui*/
+    font-weight: lighter;
+}
+
+/*sections*/
+.container{
+    width:1280px;
+    max-width:95%;
+    margin: 0 auto;
+}
+
+.parallax{
+    background-color:efefef;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    /*efeito parallax*/
+    background-attachment: fixed;
+}
+
+.hero{
+    width:100%;
+    height:100vh;
+
+    background-image: url(../assets/bim.png);
+    box-shadow: 0 0 15px #21212130;
+    position:relative;
+}
+
+.hero header{
+    width:100%;
+    height:auto;
+    padding: 30px 0;
+    background-color: #21212170;
+}
+
+.hero header .container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+.hero header .logo h2{
+    margin-left:-23vh;
+    font-size: 2em;
+    letter-spacing:2px;
+    color:#fff;
+}
+
+.hero header nav a{ 
+    color:#efefef;
+    margin-left: 30px;
+}
+
+.hero header nav a:hover{ 
+    color:#3BF6F5;
+}
+
+.titulo{
+    max-width: 90vh;
+    margin-top:-60vh;
+    margin-left: 8vh;
+}
+
+.titulo h2{
+    font-size: 55px;
+    color:#fff;
+    padding-bottom: 15px;
+}
+
+.titulo p{
+    min-width: 50vh;
+    color:#fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom:20px;
+}
+
+.titulo .btn-group a{
+    padding:15px 30px;
+    background-color:#3BF6F5;
+    border-radius:10px;
+}
+
+.titulo .btn-group a:hover{
+    padding:15px 30px;
+    background: linear-gradient(to left, transparent,#BC40B8);
+    border-radius:10px;
+    transition-duration: 0.5s;
+}
+
+.libraries{
+    width:100%;
+    height:auto;
+    padding: 100px 0 80px;
+    background-color: #efefef;
+}
+
+.libraries .container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+.libraries .container .box{
+    width: 320px;
+    max-width: 30%;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 15px;
+    border-radius:12px;
+    text-align: center;
+    transition: .3s box-shadow;
+    transition: .5s margin-top;
+}
+
+.libraries .container .box:hover{
+    box-shadow: 0 0 15px #21212130;
+    margin-top: -10px;
+}
+
+.libraries .container .box .top{
+    width:auto;
+    text-align: center;
+}
+
+.libraries .container .box h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.libraries .container .box p{
+    font-size: 1em;
+    font-weight: bold;
+    color: #444444;
+}
+
+.extra{
+    width:100%;
+    height:50vh;
+
+    background-image: url(../assets/bottom.png);
+}
+
+.contato{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top:20vh;
+}
+
+.contato h3{
+    padding-bottom: 15px;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*imagem float*/
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-25px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+.avatar {
+    margin-top: 15vh;
+    margin-left:100vh;
+	width:70vh;
+    height: 70vh;
+	box-sizing: border-box;
+	border: none;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;	
+}
+img { width: 100%; height: auto; }
+  
+/*fim imagem float*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANTIGO CSS
 body {
     font-family: roboto;
     min-height: 1000px;
@@ -36,9 +266,9 @@ h6 {
 }
 
 .wrap {
-    background: rgba(0, 0, 0, 0.5) url(../assets/bim.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0.5) url(../assets/bim.png) no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     min-height: 100vh;
 }
 
@@ -158,5 +388,7 @@ header ul li a {
 
 }
 
-  
-  
+img.bottom{
+    max-width:100%;
+}
+*/
