@@ -46,24 +46,8 @@
 }
 
 @media (max-width:680){
-    @keyframes float {
-        0% {
-            transform: translatey(0px);
-        }
-        50% {
-            transform: translatey(-25px);
-        }
-        100% {
-            transform: translatey(0px);
-        }
-    }
     .avatar {
-        margin-top: 15vh;
-        margin-left:0;
-        padding-right: 20vw;
-        width:70vh;
-        height: 70vh;	
+        display:none;	
     }
-    img { width: 100%; height: auto; }
 }
 
