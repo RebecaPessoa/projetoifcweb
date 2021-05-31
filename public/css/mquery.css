@@ -48,13 +48,13 @@
 .hero{
     background-image:none;
     background-color:blueviolet;
-}
+    }
 }
 
 @media (max-width:680px){
     .extra{
         background-image:none;
-        background-color:blueviolet;
+        background-color:#efefef;
     }
 }
 
@@ -63,4 +63,31 @@
         display:none;
     }
 }
+
+@media (max-width:1366px){
+    .hero header .logo h2{
+        margin-left:0px;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:1366px){
+    .contato h3{
+        padding-top: -100px;
+    }
+}
+
+@media (max-width:1366){
+    .contato a{
+        color: #444444;
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width:680px){
+    .libraries { 
+        margin-left:20px;
+    }
+}
+
 
